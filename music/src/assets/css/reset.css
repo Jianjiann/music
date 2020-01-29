@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+}
+body {
+    font-size: 16px;
+}
+a{
+    text-decoration:none; 
+}
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+p {
+    text-indent: 2em;
+}
+img {
+    width: 100%;
+    display: block;
+}
+
+/* 重新设置一些 element-ui 的样式 */
+.el-message-box__wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 66667!important;
+    background-color: rgba(0, 0, 0, .5);
+}
+.el-message-box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 25rem;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: .7rem;
+    padding: 2rem;
+}
+.el-message-box__message p {
+    text-indent: 0;
+    color: #666;
+    font-size: 1.5rem;
+}
+.el-message-box__headerbtn {
+    display: none;
+}
+.el-message-box__btns {
+    margin-top: 1.3rem;
+    text-align: right;
+}
+.el-message-box__btns > button {
+    color: #0190ff;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    padding: .3rem .5rem;
+    margin-left: 1rem;
+}
